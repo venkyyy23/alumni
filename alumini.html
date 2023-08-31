@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .alumni-profile {
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        
+        .profile-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .profile-header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        
+        .profile-header h1 {
+            font-size: 28px;
+            margin: 10px 0;
+        }
+        
+        .profile-header p {
+            font-size: 18px;
+        }
+        
+        .profile-details h2,
+        .achievements h2,
+        .contacts h2 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        
+        .profile-details p,
+        .achievements ul,
+        .contacts p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        
+        .achievements li {
+            list-style: disc;
+            margin-left: 20px;
+        }
+        
+        .contacts a {
+            text-decoration: none;
+        }
+        
+        .contacts a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img href="https://www.vignan.ac.in/" src="vignan logo white.png">
+            <b><span id="element"></span></b>
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed('#element', {
+                    strings: ['VIGNAN UNIVERSITY', 'VFSTR'],
+                    typeSpeed: 50,
+                });
+            </script>
+        </div>
+        <div id="f1">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="home page.html">Home</a></li>
+                    <li><a href="About us.html">About</a></li>
+                    <li><a href="alumini.html">Alumini</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact us.html">Contact us</a></li>
+                    <a href="login page.html"><img src="image-removebg-preview (1).png" style="width:40px ;" alt="Profile"></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <body>
+        <section class="alumni-profile">
+            <div class="profile-header">
+                <img src="self.jpeg" alt="[Alumni Name]">
+                <h1>Name:</h1>
+                <p>Graduated in 2023</p>
+            </div>
+            <div class="profile-details">
+                <h2>About Me</h2>
+                <p>Personal Information</p>
+            </div>
+            <div class="achievements">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>[Achievement 1]</li>
+                    <li>[Achievement 2]</li>
+                </ul>
+            </div>
+            <div class="contacts">
+                <h2>Contact Information</h2>
+                <p>Email: qwerty@gmail.com</p>
+                <p>Phone:1234567890</p>
+            </div>
+        </section>
+
+    </body>
+
+</html>

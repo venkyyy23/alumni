@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<style>
+    .email_text {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 120px;
+    }
+    
+    .email-bt {
+        width: 100%;
+        float: left;
+        font-size: 18px;
+        color: #393838;
+        margin-bottom: 20px;
+        padding: 10px 15px;
+        border: 0px;
+        border: 1px solid #2b2278 !important;
+    }
+    
+    .massage-bt {
+        width: 100%;
+        float: left;
+        font-size: 18px;
+        color: #393838;
+        margin-bottom: 20px;
+        padding: 10px 15px;
+        border: 0px;
+        border: 1px solid #2b2278 !important;
+    }
+    
+    .contact_section {
+        width: 100%;
+        float: left;
+        padding-bottom: 90px;
+    }
+    
+    .contact_taital {
+        width: 100%;
+        float: left;
+        font-size: 40px;
+        color: #363636;
+        text-align: center;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="logo">
+            <img href="https://www.vignan.ac.in/" src="vignan logo white.png">
+            <b><span id="element"></span></b>
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed('#element', {
+                    strings: ['VIGNAN UNIVERSITY', 'VFSTR'],
+                    typeSpeed: 50,
+                });
+            </script>
+        </div>
+        <div id="f1">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="home page.html">Home</a></li>
+                    <li><a href="alumini.html">Alumini</a></li>
+                    <li><a href="About us.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact us.html">Contact Us</a></li>
+                    <a href="login page.html"><img src="image-removebg-preview (1).png" style="width:40px ;" alt="Profile"></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <body>
+        <div class="first">
+            <div class="overlay">
+                <div class="contact_section layout_padding">
+                    <h1 class="contact_taital" style="color: aliceblue;">CONTACT US</h1>
+                    <div class="email_text">
+                        <div class="form-group">
+                            <input type="text" class="email-bt" placeholder="Name" name="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="email-bt" placeholder="Phone Number" name="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="email-bt" placeholder="Email" name="Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="massage-bt" placeholder="Message" rows="5" id="comment" name="Message"></textarea>
+                        </div>
+                        <div class="send_btn"><a href="#">SEND</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </body>
+
+</html>
